@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+  }
+  #main > nav {
+    background: #5cfff7;
+    order: 3;
+  }
+  #main > aside {
+    background: rgb(0, 162, 177);
+    order: 2;
+  }
+  header, footer {
+    background: rgb(51, 185, 197);
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+
+  aside{
+    font-size: 30px;
+  }
+  article{
+    font-size: 30px;
+ }
+ nav{
+    font-size: 30px;
+ }
+ p{
+     font-size: 20px;
+ }
+
+ header{
+     font-size: 50px;
+ }
+
+ article{
+     background-color: rgb(159, 247, 255);
+ }
